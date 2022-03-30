@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SesliHarfBulma {
     public static void main(String[] args) {
         String isim;
-        int sesliSayac = 0;
+        int sesliSayac = 0, boslukSayisi = 0;
 
         Scanner input = new Scanner(System.in);
 
@@ -14,9 +14,11 @@ public class SesliHarfBulma {
             char c = isim.charAt(i);
             if (c == 'a' || c == 'e' || c == 'ı' || c == 'ü' || c == 'o' || c == 'u' || c == 'i' || c == 'ö') {
                 sesliSayac += i;
+            } else if (c == ' ') {
+                boslukSayisi += i;
             }
         }
         System.out.println("İsimde  " + sesliSayac + "  tane sesli sayı bulunmaktadır.");
-        System.out.println("Sessiz Sayısı : " + (isim.length() - sesliSayac));
+        System.out.println("Sessiz Sayısı : " + (isim.length() - sesliSayac - boslukSayisi));
     }
 }
