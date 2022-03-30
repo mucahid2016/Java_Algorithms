@@ -10,9 +10,10 @@ public class YediyeTamBolunenSayilar {
 
         System.out.print("M Bitiş Değerini Giriniz : ");
         m = input.nextInt();
-
+        System.out.println("7'ye Tam Bölünen Sayılar : ");
         for (int i = n; i <= m; i++) {
             if (i % 7 == 0) {
+                System.out.print(i + " ");
                 toplam += i;
             }
         }
