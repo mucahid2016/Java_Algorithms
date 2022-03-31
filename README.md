@@ -2,5 +2,5 @@
 
 ## Kazanımlarım :
 
-#### Bir problem çözerken nasıl bir yol izleyeceğimi öğrendim.
-#### Soyut düşünelbilmeyi öğrendim.
+- Bir problem çözerken nasıl bir yol izleyeceğimi öğrendim.
+- Soyut düşünelbilmeyi öğrendim.
