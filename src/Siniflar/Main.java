@@ -2,6 +2,10 @@ package Siniflar;
 
 public class Main {
     public static void main(String[] args) {
-        CustomerManager customerManager=new CustomerManager();
+        //referance type
+        CustomerManager customerManager = new CustomerManager();
+        customerManager.Add();
+        customerManager.Update();
+        customerManager.remove();
     }
 }
